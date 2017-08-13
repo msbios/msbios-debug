@@ -30,7 +30,6 @@
     "msbios/msbios": "0.0.1",
     "jhuet/zdt-logger-module": "^1.0",
     "san/san-session-toolbar": "^1.0",
-    "thadafinser/tha-configalyzer": "dev-master",
     "digitalnature/php-ref": "^1.2"
   },
   "require-dev": {
