@@ -6,7 +6,7 @@
     "php"
   ],
   "homepage": "https://github.com/msbios/msbios-debug",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Judzhin Miles",
