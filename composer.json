@@ -24,13 +24,13 @@
     }
   },
   "require": {
-    "zfcampus/zf-development-mode": "^3.0",
     "zendframework/zend-developer-tools": "^1.1",
     "zendframework/zend-debug": "^2.5",
-    "msbios/msbios": "0.0.1",
+    "zfcampus/zf-development-mode": "^3.0",
     "jhuet/zdt-logger-module": "^1.0",
     "san/san-session-toolbar": "^1.0",
-    "digitalnature/php-ref": "^1.2"
+    "digitalnature/php-ref": "^1.2",
+    "msbios/msbios": "~1.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^5.7",
