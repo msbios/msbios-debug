@@ -6,7 +6,7 @@
     "php"
   ],
   "homepage": "https://github.com/msbios/msbios-debug",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Judzhin Miles",
@@ -31,6 +31,7 @@
     "san/san-session-toolbar": "^1.0",
     "digitalnature/php-ref": "^1.2",
     "matycz/lemo-tracy": "^1.0",
+    "ccampbell/chromephp": "^4.1",
     "msbios/msbios": "^1.0"
   },
   "require-dev": {
