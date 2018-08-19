@@ -5,12 +5,40 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="PHP Runtime" type="php">
+      <library name="PHARS">
         <CLASSES>
-          <root url="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharTar.phar.tar/" />
+          <root url="phar://$MODULE_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/classmap.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/ApplicationModulePhar.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleGz.phar.gz/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModule.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-3.0.3.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharTarBz2.phar.tar.bz2/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharTarGz.phar.tar.gz/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharZip.phar.zip/" />
+          <root url="phar://$MODULE_DIR$/vendor/phar-io/manifest/tests/_fixture/test.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleMap.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleExplicit.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleBz2.phar.bz2/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-view/test/_templates/view.phar/" />
         </CLASSES>
         <SOURCES>
-          <root url="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharTar.phar.tar/" />
+          <root url="phar://$MODULE_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/classmap.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/ApplicationModulePhar.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleGz.phar.gz/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModule.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-3.0.3.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharTarBz2.phar.tar.bz2/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharTarGz.phar.tar.gz/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModulePharZip.phar.zip/" />
+          <root url="phar://$MODULE_DIR$/vendor/phar-io/manifest/tests/_fixture/test.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleMap.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleExplicit.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-loader/test/_files/PharModuleBz2.phar.bz2/" />
+          <root url="phar://$MODULE_DIR$/vendor/zendframework/zend-view/test/_templates/view.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
