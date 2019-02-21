@@ -7,5 +7,7 @@
 namespace MSBios\Debug;
 
 return [
-
+    Module::class => [
+        // ...
+    ]
 ];

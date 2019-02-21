@@ -24,7 +24,7 @@
     }
   },
   "require": {
-    "zendframework/zend-developer-tools": "^1.1",
+    "zendframework/zend-developer-tools": "^1.2",
     "zendframework/zend-debug": "^2.5",
     "zfcampus/zf-development-mode": "^3.0",
     "san/san-session-toolbar": "^1.0",
