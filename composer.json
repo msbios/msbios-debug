@@ -1,6 +1,6 @@
 {
   "name": "msbios/debug",
-  "description": "MSBios Debug",
+  "description": "MSBios Debug Package",
   "license": "MIT",
   "keywords": [
     "php"
@@ -13,37 +13,14 @@
       "email": "info@msbios.com"
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "MSBios\\Debug\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "MSBiosTest\\Debug\\": "tests/"
-    }
-  },
   "require": {
-    "zendframework/zend-developer-tools": "^1.2",
-    "zendframework/zend-debug": "^2.5",
-    "zfcampus/zf-development-mode": "^3.0",
-    "san/san-session-toolbar": "^1.0",
+    "laminas/laminas-developer-tools": "^1.2",
+    "laminas/laminas-development-mode": "^3.2",
     "digitalnature/php-ref": "^1.2",
-    "matycz/lemo-tracy": "^1.0",
-    "msbios/msbios": "^1.0"
+    "matycz/lemo-tracy": "^1.0"
   },
   "require-dev": {
-    "msbios/test": "^1.0"
-  },
-  "scripts": {
-    "cs-check": "phpcs",
-    "cs-fix": "phpcbf",
-    "test": [
-      "@cs-check",
-      "phpunit --colors=always"
-    ],
-    "test-coverage": "phpunit --colors=always --coverage-clover clover.xml",
-    "upload-coverage": "coveralls -v",
-    "commit": "git add . && git commit -a -m \"Lazy Composer Commiter\" && git push"
+    "laminas/laminas-migration": "^1.0",
+    "msbios/msbios": "^2.0"
   }
 }
